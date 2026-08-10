@@ -40,19 +40,49 @@ Il Toolbox non promette PC più veloci, più FPS o una connessione migliore in o
 | --- |
 | ![Flusso guidato Linux Mint](docs/images/linux-mint.png) |
 
-## Installazione passo passo
+## Download e installazione
 
-Questa guida è pensata anche per chi non ha mai usato GitHub.
+**Guida completa, installazione e spiegazione delle funzioni:**
 
-1. Apri la pagina **Releases** di questo repository.
-2. Apri la release **M.G Windows Toolbox 0.3.0 Beta 1**.
-3. Scorri fino alla sezione **Assets**.
-4. Scarica il file `MG_Windows_Toolbox_0.3.0-beta.1_win64.zip` e il file `SHA256SUMS.txt`.
-5. Quando il download è finito, fai clic destro sul file ZIP e scegli **Estrai tutto...**.
-6. Apri la cartella estratta, poi `M.G Windows Toolbox-win32-x64`.
-7. Fai doppio clic su **M.G Windows Toolbox.exe**.
+[https://www.manganogregorio.it/m-g-windows-toolbox/](https://www.manganogregorio.it/m-g-windows-toolbox/)
 
-Non spostare soltanto l'EXE: i file presenti nella stessa cartella sono necessari al programma.
+### Metodo consigliato — Installazione automatica con PowerShell
+
+Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.1`, controlla automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Non richiede privilegi amministrativi per l'installazione normale.
+
+1. Apri il menu Start, cerca **PowerShell** e aprilo normalmente.
+2. Copia il comando seguente, incollalo in PowerShell e premi **Invio**:
+
+```powershell
+irm https://raw.githubusercontent.com/gregoriomangano/mg-windows-toolbox/main/install.ps1 | iex
+```
+
+Lo script non disabilita SmartScreen o Defender e non modifica permanentemente le policy PowerShell. Se il checksum non corrisponde, l'installazione viene interrotta.
+
+Per disinstallare soltanto il programma installato con questo metodo e il relativo collegamento nel menu Start:
+
+```powershell
+irm https://raw.githubusercontent.com/gregoriomangano/mg-windows-toolbox/main/uninstall.ps1 | iex
+```
+
+### Metodo manuale — Scarica direttamente lo ZIP
+
+**[⬇️ Scarica M.G Windows Toolbox 0.3.0 Beta 1](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.1/MG_Windows_Toolbox_0.3.0-beta.1_win64.zip)**
+
+1. Scarica il file ZIP.
+2. Fai clic destro sul file e scegli **Estrai tutto...**.
+3. Apri la cartella estratta.
+4. Apri `M.G Windows Toolbox-win32-x64`.
+5. Fai doppio clic su **M.G Windows Toolbox.exe**.
+
+Non spostare soltanto l'EXE fuori dalla cartella: gli altri file presenti nella stessa cartella sono necessari al programma.
+
+- [Pagina Release 0.3.0 Beta 1](https://github.com/gregoriomangano/mg-windows-toolbox/releases/tag/v0.3.0-beta.1)
+- [Scarica SHA256SUMS.txt](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.1/SHA256SUMS.txt)
+
+**SHA-256 del pacchetto ZIP:**
+
+`829478B663C2585226DEC185B6A1B3857B7C5CDDA0793F281975F17AAB15F067`
 
 ### Se compare Windows SmartScreen
 
