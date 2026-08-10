@@ -1,6 +1,38 @@
 # Installazione per principianti
 
-Questa guida spiega come aprire M.G Windows Toolbox senza usare terminale o comandi.
+Questa guida spiega come installare M.G Windows Toolbox con il metodo automatico oppure con il download manuale del file ZIP.
+
+## Metodo consigliato — Installazione automatica con PowerShell
+
+Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.1`, verifica automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Non richiede privilegi amministrativi per l'installazione normale.
+
+Prima di iniziare, tieni presente che:
+
+- il pacchetto è grande circa **348 MB**;
+- il download può richiedere diversi minuti, in base alla velocità della connessione;
+- durante il download PowerShell può mostrare **“Scrittura richiesta Web”** oppure **“Scrittura del flusso di richiesta in corso...”**;
+- questi messaggi sono normali e non significano che PowerShell si sia bloccato;
+- **non chiudere PowerShell** e **non rilanciare il comando**;
+- attendi fino a quando compare il messaggio **“Installazione completata.”**.
+
+Segui questi passaggi:
+
+1. Apri **Start**.
+2. Cerca **PowerShell**.
+3. Aprilo normalmente, senza scegliere l'avvio come amministratore.
+4. Incolla questo comando:
+
+```powershell
+irm https://raw.githubusercontent.com/gregoriomangano/mg-windows-toolbox/main/install.ps1 | iex
+```
+
+5. Premi **Invio**.
+6. Aspetta la fine senza chiudere PowerShell e senza inserire di nuovo il comando.
+7. Cerca **M.G Windows Toolbox** nel menu Start quando compare **“Installazione completata.”**.
+
+## Metodo manuale — Download del file ZIP
+
+Se preferisci non usare PowerShell, segui i passaggi manuali qui sotto.
 
 ## PASSO 1 — Scarica
 
