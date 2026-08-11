@@ -1,4 +1,4 @@
-# Third-party notices — M.G Windows Toolbox Beta 0.3.0-beta.1
+# Third-party notices — M.G Windows Toolbox Beta 0.3.0-beta.2
 
 M.G Windows Toolbox is distributed as proprietary, closed-source software. Its source code is not part of this distribution.
 

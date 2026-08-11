@@ -2,7 +2,7 @@
 
 > Un centro di controllo semplice per Windows che raccoglie installazione software, manutenzione, riparazione, sicurezza, gaming, driver, rete, Linux Mint e altre funzioni in un'unica interfaccia grafica.
 
-**Versione disponibile:** 0.3.0-beta.1 — Beta pubblica per Windows 10 e Windows 11 a 64 bit.
+**Versione disponibile:** 0.3.0-beta.2 — Beta pubblica per Windows 10 e Windows 11 a 64 bit.
 
 ## Che cos'è
 
@@ -48,11 +48,11 @@ Il Toolbox non promette PC più veloci, più FPS o una connessione migliore in o
 
 ### Metodo consigliato — Installazione automatica con PowerShell
 
-Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.1`, controlla automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Non richiede privilegi amministrativi per l'installazione normale.
+Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.2`, controlla automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Se il Toolbox è già installato con questo metodo, aggiorna o ripara l'installazione senza richiedere la disinstallazione.
 
 Prima di iniziare, tieni presente che:
 
-- il pacchetto è grande circa **348 MB**;
+- il pacchetto è grande circa **138 MB**;
 - il download può richiedere diversi minuti, in base alla velocità della connessione;
 - durante il download PowerShell può mostrare **“Scrittura richiesta Web”** oppure **“Scrittura del flusso di richiesta in corso...”**;
 - questi messaggi sono normali e non significano che PowerShell si sia bloccato;
@@ -84,7 +84,7 @@ irm https://raw.githubusercontent.com/gregoriomangano/mg-windows-toolbox/main/un
 
 ### Metodo manuale — Scarica direttamente lo ZIP
 
-**[⬇️ Scarica M.G Windows Toolbox 0.3.0 Beta 1](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.1/MG_Windows_Toolbox_0.3.0-beta.1_win64.zip)**
+**[⬇️ Scarica M.G Windows Toolbox 0.3.0 Beta 2](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.2/MG_Windows_Toolbox_0.3.0-beta.2_win64.zip)**
 
 1. Scarica il file ZIP.
 2. Fai clic destro sul file e scegli **Estrai tutto...**.
@@ -94,12 +94,12 @@ irm https://raw.githubusercontent.com/gregoriomangano/mg-windows-toolbox/main/un
 
 Non spostare soltanto l'EXE fuori dalla cartella: gli altri file presenti nella stessa cartella sono necessari al programma.
 
-- [Pagina Release 0.3.0 Beta 1](https://github.com/gregoriomangano/mg-windows-toolbox/releases/tag/v0.3.0-beta.1)
-- [Scarica SHA256SUMS.txt](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.1/SHA256SUMS.txt)
+- [Pagina Release 0.3.0 Beta 2](https://github.com/gregoriomangano/mg-windows-toolbox/releases/tag/v0.3.0-beta.2)
+- [Scarica SHA256SUMS.txt](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.2/SHA256SUMS.txt)
 
 **SHA-256 del pacchetto ZIP:**
 
-`829478B663C2585226DEC185B6A1B3857B7C5CDDA0793F281975F17AAB15F067`
+`FF3D7AB04D091C99818BE827272A73BC079BD31DC28C968B272BD0F1AA75A2EA`
 
 ### Se compare Windows SmartScreen
 
@@ -119,7 +119,7 @@ L'app può avviarsi normalmente. Windows chiede UAC soltanto per funzioni che mo
 
 ## Beta e limiti
 
-M.G Windows Toolbox 0.3.0-beta.1 è una **Beta**. Possono ancora esserci bug o differenze tra PC, versioni di Windows, driver e componenti installati. Alcune azioni sono reversibili, altre richiedono attenzione: il programma prova a indicarlo prima della conferma.
+M.G Windows Toolbox 0.3.0-beta.2 è una **Beta**. Possono ancora esserci bug o differenze tra PC, versioni di Windows, driver e componenti installati. Alcune azioni sono reversibili, altre richiedono attenzione: il programma prova a indicarlo prima della conferma.
 
 Non usare il Toolbox per formattare dischi, modificare BIOS/firmware o rimuovere driver senza sapere esattamente che cosa stai facendo. Per USB e ISO, la scelta e la scrittura del dispositivo restano sempre sotto il controllo dell'utente.
 
