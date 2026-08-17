@@ -101,7 +101,7 @@ try {
     try {
         Move-Item -LiteralPath $extractedProgram -Destination $InstallFolder
         if (-not (Test-Path -LiteralPath $InstalledExecutable -PathType Leaf)) {
-            throw 'La sostituzione non ha prodotto l’eseguibile previsto.'
+            throw 'La sostituzione non ha prodotto il file eseguibile previsto.'
         }
         Create-StartMenuShortcut
     } catch {
