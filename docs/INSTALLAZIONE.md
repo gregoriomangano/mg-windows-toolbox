@@ -4,7 +4,7 @@ Questa guida spiega come installare M.G Windows Toolbox con il metodo automatico
 
 ## Metodo consigliato — Installazione automatica con PowerShell
 
-Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.2`, verifica automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Se esiste una precedente installazione gestita dal Toolbox, la aggiorna senza disinstallarla.
+Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.3`, verifica automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Se esiste una precedente installazione gestita dal Toolbox, la aggiorna senza disinstallarla.
 
 Prima di iniziare, tieni presente che:
 
@@ -37,9 +37,9 @@ Se preferisci non usare PowerShell, segui i passaggi manuali qui sotto.
 ## PASSO 1 — Scarica
 
 1. Apri la pagina **Releases** del repository M.G Windows Toolbox.
-2. Apri la versione **M.G Windows Toolbox 0.3.0 Beta 2**.
+2. Apri la versione **M.G Windows Toolbox 0.3.0 Beta 3**.
 3. Scorri fino alla sezione **Assets**.
-4. Scarica `MG_Windows_Toolbox_0.3.0-beta.2_win64.zip`.
+4. Scarica `MG_Windows_Toolbox_0.3.0-beta.3_win64.zip`.
 
 Se vuoi controllare che il download sia quello ufficiale, scarica anche `SHA256SUMS.txt`. Il valore SHA-256 è una specie di impronta del file: se non corrisponde, scarica di nuovo il pacchetto dalla release ufficiale.
 

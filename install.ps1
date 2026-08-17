@@ -1,9 +1,9 @@
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version 2.0
 
-$ReleaseTag = 'v0.3.0-beta.2'
-$DownloadUrl = "https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/$ReleaseTag/MG_Windows_Toolbox_0.3.0-beta.2_win64.zip"
-$ExpectedSha256 = 'FF3D7AB04D091C99818BE827272A73BC079BD31DC28C968B272BD0F1AA75A2EA'
+$ReleaseTag = 'v0.3.0-beta.3'
+$DownloadUrl = "https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/$ReleaseTag/MG_Windows_Toolbox_0.3.0-beta.3_win64.zip"
+$ExpectedSha256 = '3824347794E78416C9B8E8FE99BF50548415FE7A893B44D6D4FEB46CFFF9D36C'
 $PackageFolderName = 'M.G Windows Toolbox-win32-x64'
 $ExecutableName = 'M.G Windows Toolbox.exe'
 
@@ -17,7 +17,7 @@ $UserDataFolder = Join-Path $env:APPDATA 'M.G Windows Toolbox'
 $StartMenuFolder = Join-Path $env:APPDATA 'Microsoft\Windows\Start Menu\Programs'
 $ShortcutPath = Join-Path $StartMenuFolder 'M.G Windows Toolbox.lnk'
 $TemporaryFolder = Join-Path ([System.IO.Path]::GetTempPath()) ('mg-windows-toolbox-' + [guid]::NewGuid().ToString('N'))
-$ZipPath = Join-Path $TemporaryFolder 'MG_Windows_Toolbox_0.3.0-beta.2_win64.zip'
+$ZipPath = Join-Path $TemporaryFolder 'MG_Windows_Toolbox_0.3.0-beta.3_win64.zip'
 $ExtractFolder = Join-Path $TemporaryFolder 'estratto'
 $PreviousFolder = $null
 

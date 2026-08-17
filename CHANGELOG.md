@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.3.0-beta.3 — 17 agosto 2026
+
+- Nuovi temi Sistema, Chiaro e Scuro, con contrasto migliorato in modalità scura;
+- dimensione del testo selezionabile: Normale, Grande e Molto grande;
+- Home più semplice, scorciatoie per le attività comuni e sidebar organizzata;
+- lettere delle unità più chiare in Il mio PC e nuova pagina Sostieni;
+- nuova sezione Intelligenza Artificiale con 6 assistenti, 6 strumenti da terminale e 3 strumenti AI locali;
+- App Center: catalogo immediato, categorie ripristinate, parser WinGet indipendente dalla lingua, elenco installati e ricerca corretti;
+- verifica più affidabile delle modifiche al Registro e miglioramenti di leggibilità;
+- corretta la descrizione dei suggerimenti di ricerca in Esplora file.
+
 ## v0.3.0-beta.2 — 11 agosto 2026
 
 - App Center molto più rapido, con stato installazioni/aggiornamenti corretto e cache condivisa;
