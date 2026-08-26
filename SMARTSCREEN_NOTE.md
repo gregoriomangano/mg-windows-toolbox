@@ -1,6 +1,6 @@
 # Nota Windows SmartScreen
 
-M.G Windows Toolbox 0.3.0-beta.4 è una Beta non firmata digitalmente. Per questo Windows può mostrare un avviso SmartScreen al primo avvio.
+M.G Windows Toolbox 0.3.0-beta.5 è una Beta non firmata digitalmente. Per questo Windows può mostrare un avviso SmartScreen al primo avvio.
 
 L'avviso non indica automaticamente che il file sia dannoso: segnala che l'app non possiede ancora una reputazione/certificato di firma riconosciuto da Microsoft.
 

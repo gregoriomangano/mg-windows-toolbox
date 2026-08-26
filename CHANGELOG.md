@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.3.0-beta.5 — 26 agosto 2026
+
+- Corretto il controllo automatico degli aggiornamenti;
+- le versioni Beta/prerelease vengono ora rilevate correttamente;
+- controllo automatico in background a ogni avvio;
+- pagina Aggiornamenti resa più chiara con Controlla ora / Aggiorna ora;
+- aggiornamento direttamente dalla Toolbox senza richiedere comandi manuali.
+
 ## v0.3.0-beta.4 — 26 agosto 2026
 
 - Nuova pagina Disinstalla programmi per visualizzare e rimuovere software desktop e app Microsoft Store installate;
