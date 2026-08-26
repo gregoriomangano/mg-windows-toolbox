@@ -2,7 +2,7 @@
 
 > Un centro di controllo semplice per Windows che raccoglie installazione software, manutenzione, riparazione, sicurezza, gaming, driver, rete, Linux Mint e altre funzioni in un'unica interfaccia grafica.
 
-**Versione disponibile:** 0.3.0-beta.3 — Beta pubblica per Windows 10 e Windows 11 a 64 bit.
+**Versione disponibile:** 0.3.0-beta.4 — Beta pubblica per Windows 10 e Windows 11 a 64 bit.
 
 ## Che cos'è
 
@@ -14,6 +14,7 @@ Il programma mostra lo stato reale del sistema e spiega, prima di agire, che cos
 
 - **Home e Il mio PC** — vedere informazioni su hardware, dischi e stato generale del PC.
 - **App Center** — cercare, installare, aggiornare o rimuovere programmi tramite WinGet.
+- **Disinstalla programmi** — visualizzare e rimuovere software desktop e applicazioni Microsoft Store realmente installate, anche quando non fanno parte dell'App Center.
 - **Intelligenza Artificiale** — trovare assistenti AI, strumenti per il terminale e programmi AI locali.
 - **Gaming e Sviluppo** — raccogliere strumenti utili per giocare o programmare.
 - **Pulizia** — controllare file temporanei e spazio recuperabile prima di scegliere cosa eliminare.
@@ -49,11 +50,11 @@ Il Toolbox non promette PC più veloci, più FPS o una connessione migliore in o
 
 ### Metodo consigliato — Installazione automatica con PowerShell
 
-Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.3`, controlla automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Se il Toolbox è già installato con questo metodo, aggiorna o ripara l'installazione senza richiedere la disinstallazione.
+Questo metodo scarica soltanto la release ufficiale `v0.3.0-beta.4`, controlla automaticamente il checksum SHA-256, installa il programma nella cartella personale di Windows e crea il collegamento nel menu Start. Se il Toolbox è già installato con questo metodo, aggiorna o ripara l'installazione senza richiedere la disinstallazione.
 
 Prima di iniziare, tieni presente che:
 
-- il pacchetto è grande circa **138 MB**;
+- il pacchetto è grande circa **138,1 MiB**;
 - il download può richiedere diversi minuti, in base alla velocità della connessione;
 - durante il download PowerShell può mostrare **“Scrittura richiesta Web”** oppure **“Scrittura del flusso di richiesta in corso...”**;
 - questi messaggi sono normali e non significano che PowerShell si sia bloccato;
@@ -85,7 +86,7 @@ irm https://raw.githubusercontent.com/gregoriomangano/mg-windows-toolbox/main/un
 
 ### Metodo manuale — Scarica direttamente lo ZIP
 
-**[⬇️ Scarica M.G Windows Toolbox 0.3.0 Beta 3](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.3/MG_Windows_Toolbox_0.3.0-beta.3_win64.zip)**
+**[⬇️ Scarica M.G Windows Toolbox 0.3.0 Beta 4](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.4/MG_Windows_Toolbox_0.3.0-beta.4_win64.zip)**
 
 1. Scarica il file ZIP.
 2. Fai clic destro sul file e scegli **Estrai tutto...**.
@@ -95,12 +96,12 @@ irm https://raw.githubusercontent.com/gregoriomangano/mg-windows-toolbox/main/un
 
 Non spostare soltanto l'EXE fuori dalla cartella: gli altri file presenti nella stessa cartella sono necessari al programma.
 
-- [Pagina Release 0.3.0 Beta 3](https://github.com/gregoriomangano/mg-windows-toolbox/releases/tag/v0.3.0-beta.3)
-- [Scarica SHA256SUMS.txt](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.3/SHA256SUMS.txt)
+- [Pagina Release 0.3.0 Beta 4](https://github.com/gregoriomangano/mg-windows-toolbox/releases/tag/v0.3.0-beta.4)
+- [Scarica SHA256SUMS.txt](https://github.com/gregoriomangano/mg-windows-toolbox/releases/download/v0.3.0-beta.4/SHA256SUMS.txt)
 
 **SHA-256 del pacchetto ZIP:**
 
-`3824347794E78416C9B8E8FE99BF50548415FE7A893B44D6D4FEB46CFFF9D36C`
+`16F6A5FF6F73A3C2FD05511EA8C86EE2CE4F356A39DA955079F2F1E9C81067A5`
 
 ### Se compare Windows SmartScreen
 
@@ -120,7 +121,7 @@ L'app può avviarsi normalmente. Windows chiede UAC soltanto per funzioni che mo
 
 ## Beta e limiti
 
-M.G Windows Toolbox 0.3.0-beta.3 è una **Beta**. Possono ancora esserci bug o differenze tra PC, versioni di Windows, driver e componenti installati. Alcune azioni sono reversibili, altre richiedono attenzione: il programma prova a indicarlo prima della conferma.
+M.G Windows Toolbox 0.3.0-beta.4 è una **Beta**. Possono ancora esserci bug o differenze tra PC, versioni di Windows, driver e componenti installati. Alcune azioni sono reversibili, altre richiedono attenzione: il programma prova a indicarlo prima della conferma.
 
 Non usare il Toolbox per formattare dischi, modificare BIOS/firmware o rimuovere driver senza sapere esattamente che cosa stai facendo. Per USB e ISO, la scelta e la scrittura del dispositivo restano sempre sotto il controllo dell'utente.
 

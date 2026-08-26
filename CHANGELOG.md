@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3.0-beta.4 — 26 agosto 2026
+
+- Nuova pagina Disinstalla programmi per visualizzare e rimuovere software desktop e app Microsoft Store installate;
+- rilevamento più pulito dei programmi, senza confondere aggiornamenti, driver e componenti interni di Windows con normali applicazioni;
+- ricerca e filtri nella gestione dei programmi installati;
+- verifica dello stato reale dopo una disinstallazione e supporto ai metodi standard Windows;
+- nuova card di sostegno nella pagina Chi sono;
+- nuovo messaggio volontario di supporto al canale YouTube, senza login o raccolta dati;
+- piccole correzioni e pulizia interna.
+
 ## v0.3.0-beta.3 — 17 agosto 2026
 
 - Nuovi temi Sistema, Chiaro e Scuro, con contrasto migliorato in modalità scura;
