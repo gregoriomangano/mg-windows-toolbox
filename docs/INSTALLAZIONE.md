@@ -114,4 +114,4 @@ Alcuni PC possono avere WinGet non aggiornato o non disponibile. Il Toolbox dovr
 
 - YouTube: https://www.youtube.com/@GregorioMangano
 - Sito: https://www.manganogregorio.it/
-- Contatti: https://www.manganogregorio.it/contatti-gregorio-mangano-mondovi/
+- Contatti: https://www.manganogregorio.it/#contatti

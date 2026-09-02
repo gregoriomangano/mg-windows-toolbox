@@ -131,7 +131,7 @@ M.G Windows Toolbox è sviluppato da **Gregorio Mangano**, autore del progetto e
 
 - YouTube: https://www.youtube.com/@GregorioMangano
 - Sito: https://www.manganogregorio.it/
-- Contatti: https://www.manganogregorio.it/contatti-gregorio-mangano-mondovi/
+- Contatti: https://www.manganogregorio.it/#contatti
 
 ## Codice e licenze
 
